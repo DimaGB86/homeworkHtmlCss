@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+body{
+	scroll-behavior: smooth;
+	background: #fff;
+	font-family: "Open Sans", sans-serif;
+	color: #000000;
+}
+
+img{
+	display: block;
+	max-width: 100%;
+}
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.header {
+	padding: 54px 0;
+	margin-bottom: 84px;
+}
+button{
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+.header-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.navigation {	
+	width: 533px;
+  display: flex;
+  justify-content: space-between
+}
+.header-logo {
+	display: flex;
+	max-width: 137px;
+}
+.nav-link {
+	font-weight: 400;
+  font-size: 14px;
+  color: #000;
+}
+.active_link {
+  color: #f25822;
+}
+.main {
+	margin-bottom: 80px;
+}
+.main-content {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.content {
+	max-width: 604px;
+}
+.content-title {
+	font-weight: 400;
+	font-size: 60px;
+	margin-bottom: 17px;
+	
+}
+.content-text {
+	font-weight: 400;
+	font-size: 20px;
+	color: #888;
+	margin-bottom: 37px;
+	max-width: 466px;
+}
+.content-btm-box {
+	display: flex;
+	gap: 20px;
+}
+.content-btn {
+	border-radius: 50px;
+  padding: 15px 30px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
+  background: #f25822;
+}
+.content-btn-watch {
+  color: #aaa;
+  background-color: transparent
+}
+.content-img {
+}
+.footer {
+	margin-bottom: 96px;
+}
+.logos {
+	display: flex;
+	justify-content: space-between;
+}
